@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Weapon
+comment1.params=damage\ properties
+comment1.target=Weapon(int,\ java.lang.String)
+comment2.params=properties
+comment2.target=void\ addProperties(java.lang.String)
+comment2.text=\r\n\ Toggles\ propeties\ for\ the\ weapon\ based\ on\ the\ input.\r\n
+comment3.params=
+comment3.target=boolean\ hasEvasion()
+comment3.text=\r\n\ This\ method\ checks\ if\ we\ have\ evasion\ on\ our\ weapon,\ if\ we\ do,\ the\ player\ has\r\n\ 33%\ chance\ to\ dodge\ the\ attack\ incoming.\r\n
+comment4.params=
+comment4.target=int\ getDamage()
+comment4.text=\r\n\ Returns\ the\ damage\ that\ the\ weapon\ has.\r\n
+comment5.params=
+comment5.target=int\ getSpread()
+comment5.text=\r\n\ This\ method\ checks\ if\ our\ weapon\ has\ spread,\ if\ it\ does,\ generate\ a\ random\ number\r\n\ between\ 1\ and\ 3\ and\ return\ that\ number.\r\n
+numComments=6

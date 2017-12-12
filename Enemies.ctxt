@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Enemies
+comment1.params=stats
+comment1.target=Enemies(Stats)
+comment2.params=
+comment2.target=void\ spawnEnemies()
+comment2.text=\r\n\ Spawn\ enemies\ based\ on\ the\ amount\ of\ time\ spent\ in\ the\ game\ moving\ around,\r\n\ the\ more\ time\ spent,\ the\ more\ difficult\ it\ becomes.\r\n
+comment3.params=damage\ number
+comment3.target=void\ attacked(int,\ int)
+comment3.text=\r\n\ Called\ when\ the\ player\ attacks\ enemies\ in\ the\ room.\r\n\ \r\n\ Method\ will\ start\ with\ the\ biggest\ slime\ first,\ because\ it\ body\ blocks\ (aka\ didn't\ have\ enough\r\n\ time\ to\ write\ targeting\ methods)\ and\ work\ it's\ way\ down\ the\ enemy\ list.\r\n\ \r\n\ Will\ cycle\ through\ the\ functions\ depending\ on\ if\ their\ is\ spread\ on\ the\ weapon.\r\n\ \r\n\ Sets\ an\ int\ at\ the\ start\ using\ the\ list\ size\ of\ slimes\ that\ determines\ which\ slime\ to\ attack,\r\n\ attacks\ on\ normal\ slimes\ start\ at\ the\ end\ of\ the\ list\ and\ work\ up,\ to\ avoid\ any\ errors.\r\n\ \r\n\ If\ the\ slimes\ attacked\ method\ returns\ true,\ it\ is\ dead,\ and\ should\ be\ removed\ from\ the\r\n\ enemy\ object.\r\n
+comment4.params=
+comment4.target=int\ attack()
+comment4.text=\r\n\ Attacks\ the\ player\ and\ returns\ an\ int\ depending\ on\ how\ much\ damage\ the\ player\ should\ take,\ prints\r\n\ out\ what\ the\ slimes\ do.\ If\ a\ big\ slime\ is\ in\ the\ room,\ set\ an\ offset\ and\ increase\ the\ amount\ of\r\n\ total\ enemeis\ by\ 1,\ this\ way\ we\ can\ cycle\ through\ every\ slime\ in\ the\ slimes\ list.\r\n
+comment5.params=
+comment5.target=boolean\ addEnemies()
+comment5.text=\r\n\ Add\ enemies\ and\ return\ a\ condition\ the\ tells\ us\ if\ enemies\ already\ existed\r\n
+comment6.params=
+comment6.target=boolean\ enemiesPresent()
+comment6.text=\r\n\ Return\ if\ enemies\ are\ present\ in\ the\ room.\r\n
+numComments=7

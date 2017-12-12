@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=BigSlime
+comment0.text=\r\n\ This\ class\ just\ holds\ all\ the\ variables\ for\ the\ big\ slime,\ and\ a\ method\ that\ returns\ a\ bool\ based\r\n\ on\ whether\ the\ slime\ should\ be\ alive\ or\ killed.\r\n
+comment1.params=
+comment1.target=BigSlime()
+comment2.params=
+comment2.target=int\ attack()
+comment2.text=\r\n\ Return\ the\ slimes\ damage.\r\n
+comment3.params=
+comment3.target=int\ getHealth()
+comment4.params=damage
+comment4.target=boolean\ attacked(int)
+comment4.text=\r\n\ Takes\ the\ damage\ received\ and\ subtracts\ it\ from\ the\ slime\ health,\ if\ it's\ still\ alive\ return\ false,\r\n\ otherwise\ return\ true.\r\n
+numComments=5
